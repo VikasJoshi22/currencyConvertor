@@ -15,7 +15,8 @@ function App() {
 
   return (
     <>
-      <div className="absolute top-[20%] left-[35%]">
+      <div className="flex flex-col justify-center items-center w-[100vw]">
+      <div className="flex justify-center w-full text-5xl font-bold text-white mt-[10vh]">Currency Convertor</div>
         <form
           className="flex flex-col items-center mt-10 rounded-lg p-5 bg-gray-700"
           onSubmit={(e) => {
